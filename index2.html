@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    .container{
+        height: 500px;
+        background-color: blueviolet;
+        margin: auto;
+    }
+    .box{
+      
+        width:300px;
+        background-color: pink;
+        margin-top: 20px;
+    }
+        @media(max-width: 576px){ 
+        .container{
+            background-color: red;
+        }
+    }
+    @media(min-width: 575px){
+        .container{
+            background-color: blue;
+        }
+    }
+    @media(min-width: 768px){
+        .container{
+            background-color:green;
+        }
+    }
+    @media(min-width: 992px){
+        .container{
+            background-color:pink;
+        }
+    }
+    @media(min-width: 1200px){
+        .container{
+            background-color:brown;
+        }
+    }
+        @media(min-width: 1400px){
+        .container{
+            background-color:purple;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sunt eveniet, repellat reprehenderit magni necessitatibus sapiente accusamus blanditiis velit maxime quibusdam saepe quam voluptatum repudiandae harum ad. Voluptas, blanditiis quibusdam?
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam vitae eos, provident odit vero, sit dolore placeat illum laborum illo ea ab aspernatur nemo eligendi eius minus aut omnis eaque.
+        </div>
+    </div>
+</body>
+</html>
